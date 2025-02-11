@@ -16,6 +16,7 @@ export default function ShowText({
     type,
     stagger,
     duration,
+    delay = "",
     ...props
 }) {
 
@@ -25,6 +26,7 @@ export default function ShowText({
         if(type == "lines") {
             let split = new SplitType.create(containerRef.current, { type: "lines" });
             gsap.from(split.lines, {
+                delay: delay,
                 y: 200,
                 ease: "power4.out",
                 duration: duration,
@@ -41,6 +43,7 @@ export default function ShowText({
             console.log(type)
             let split = new SplitType.create(containerRef.current, { type: "words" });
             gsap.from(split.words, {
+                delay: delay,
                 y: 200,
                 ease: "power4.out",
                 duration: duration,
@@ -58,6 +61,7 @@ export default function ShowText({
         let split = new SplitType.create(containerRef.current, { type: "chars" });
 
         gsap.from(split.chars, {
+            delay: delay,
             y: 200,
             ease: "power4.out",
             duration: duration,
