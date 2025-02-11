@@ -10,7 +10,7 @@ export default function Footer() {
     useGSAP(() => {
         gsap.timeline({
             scrollTrigger: {
-                trigger: ".accordion",
+                trigger: ".group-footer",
                 start: "top bottom",
                 scrub: false,
             }
