@@ -24,7 +24,7 @@ export default function Accordion() {
                 start: "top bottom",
                 scrub: false,
             }
-		}, 1);
+		});
     });
 
     return (

@@ -39,27 +39,6 @@ gsap.registerPlugin(ScrollTrigger, useGSAP);
 
 export default function Home() {
 	const container = useRef(null);
-
-	useGSAP(() => {
-
-		gsap.to(".group-features-benefits .group .item-fb", {
-			opacity: 1,
-			x: 0,
-			ease: "power4.out",
-			duration: 2,
-			stagger: 0.5,
-			scrollTrigger: {
-				trigger: ".group-features-benefits .group .item-fb",
-				start: "top bottom",
-				scrub: false,
-			}
-		});
-
-		
-
-
-	}, [container]);
-
 	const [counter, setCounter] = useState(0);
 	const [isLoading, setIsLoading ] = useState(true);
     
