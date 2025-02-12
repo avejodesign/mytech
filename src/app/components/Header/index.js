@@ -93,7 +93,7 @@ export default function HeaderComponent() {
                     </div>
                 </Navbar>
                 <Hero>
-                    <img id="blur-01" src="./blur-01.png" alt="" />
+                    <img id="blur-01" src="./blur-01.webp" alt="" />
                     <div className="content">
                         <h1 className="split-text">Connect your company to the world of blockchain</h1>
                         <p className="split-text2">Our platform offers a secure, efficient, and user-friendly experience for connect you company.</p>
@@ -146,7 +146,7 @@ export default function HeaderComponent() {
                             </div>
                         </div>
                     </div>
-                    <ParallaxImage src="./image-hero.png" alt="" id="image-hero" clipPath_value="inset(100% 100% 100% 100%)" />
+                    <ParallaxImage src="./image-hero.webp" alt="" id="image-hero" clipPath_value="inset(100% 100% 100% 100%)" />
                 </Hero>
             </div>
         </Header>

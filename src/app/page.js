@@ -127,7 +127,7 @@ export default function Home() {
 										<button className="button button--narvi"><span><span>Get Started</span></span></button>
 									</div>
 								</div>
-								<img className="color-blur" src="./layer-sota.png" alt="" />
+								<img className="color-blur" src="./layer-sota.webp" alt="" />
 							</div>
 						</Sota>
 						<div className="container-main">
@@ -135,7 +135,7 @@ export default function Home() {
 						</div>
 						<FeesExchange>
 							<div className="exchange-info">
-								<ParallaxImage src="./background-fees.png" id="bg-fee" alt="" clipPath_value="inset(100% 100% 100% 100%)" />
+								<ParallaxImage src="./background-fee.webp" id="bg-fee" alt="" clipPath_value="inset(100% 100% 100% 100%)" />
 								<img src="./exchange-info.png" id="info-img" alt="" />
 							</div>
 							<div className="content">
@@ -146,7 +146,7 @@ export default function Home() {
 							</div>
 						</FeesExchange>
 						<FaqContent>
-							<img src="./background-faq.png" alt="" />
+							<img src="./background-faq.webp" alt="" />
 							<div className="container-main">
 								<ShowText as="h2" text="Popular questions <br/>about blockchain" stagger="0.02" duration="1" />
 								<div className="faq">

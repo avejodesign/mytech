@@ -66,7 +66,7 @@ export default function Footer() {
                 </div>
 
                 <img id="logo-giant" src="./logo-giant.svg" alt="" />
-                <img id="bubble" src="./bubble-footer.png" alt="" />
+                <img id="bubble" src="./bubble-footer.webp" alt="" />
             </div>
         </FooterContainer>
     )
